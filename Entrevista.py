@@ -6,6 +6,7 @@
 #Victor Hugo Almeida de Moura
 
 
+
 import csv # import da biblioteca que irá editar um arquivo csv
 from datetime import datetime as dt # biblioteca que fornece data e hora
 from os import system # biblioteca para manipular o cmd
@@ -14,7 +15,7 @@ from time import sleep
 
 class Entrevista: # criação da classe Entrevista
     def __init__(self): # construtor para iniciar as variaveis
-        arquivo = open("saída.csv", "a", newline="", encoding="utf-8")    #abre o arquivo para adicionar os dados
+        arquivo = open("saída.csv", "a", newline="", encoding="utf-8")
         self.idade = 1
         while (self.idade != 00):
             self.idade = int(input ('Insira a idade do entrevistado (00 para encerrar o programa): '))
@@ -131,7 +132,6 @@ class Entrevista: # criação da classe Entrevista
                 w = csv.writer(arquivo)
                 cabecalho = ['idade', 'faixa', 'genero', 'r1', 'r2', 'r3', 'r4', 'data']
                 writer = csv.DictWriter(arquivo, fieldnames = cabecalho)
-                #writer.writeheader()
                 writer.writerow({'idade':self.idade, 'faixa':self.faixa, 'genero':self.gen, 'r1':self.r1, 'r2':self.r2, 'r3':self.r3, 'r4':self.r4, 'data':self.data})
 
                 lista2 = ['Ficha do entrevistado:','', f'Idade: {self.idade}', f'Faixa etária: {self.faixa}', f'Genêro: {self.gen}', '', f'Resposta 1: {self.r1}', f'Resposta 2: {self.r2}', f'Resposta 3: {self.r3}', f'Resposta 4: {self.r4}', '', f'Data: {self.data}']
@@ -141,5 +141,5 @@ class Entrevista: # criação da classe Entrevista
                 print('')
                 p = input ('Aperte enter para continuar\n')
                 system('cls')
-        arquivo.close()    #fecha o arquivo
+        arquivo.close()
         
