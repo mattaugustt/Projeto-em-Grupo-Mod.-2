@@ -1,0 +1,12 @@
+idade,faixa,genero,r1,r2,r3,r4,data
+11,Criança,M,A,B,E,B,03-03-2023 09:40:54
+9,Criança,F,B,A,E,A,03-03-2023 09:43:07
+10,Criança,M,A,D,E,A,03-03-2023 09:43:45
+13,Adolescente,F,D,D,E,C,03-03-2023 09:44:45
+14,Adolescente,M,A,A,E,B,03-03-2023 09:45:23
+18,Adolescente,F,D,C,E,C,03-03-2023 09:46:16
+35,Adulto,M,C,C,E,B,03-03-2023 09:47:00
+25,Adulto,F,B,A,E,A,03-03-2023 09:48:41
+14,Adolescente,M,D,C,E,D,03-03-2023 09:49:12
+40,Adulto,M,A,E,E,A,03-03-2023 09:49:45
+30,Adulto,M,B,D,B,A,03-03-2023 10:26:28
