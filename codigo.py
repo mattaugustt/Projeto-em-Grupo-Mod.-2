@@ -22,14 +22,15 @@ class Entrevista: # criação da classe Entrevista
             dados = []
             idade = int(input ('Insira a idade do entrevistado (00 para encerrar o programa): '))
             sleep(1)
-            print('')
+            print('~'*70)
 
             if idade == 00:
               break
             
             gen = input('Insira o gênero do entrevistado: ')
             sleep(1)
-            print('')
+            print('~'*70)
+            
             r1 = input ('''1 - Qual o gênero de anime favorito do entrevistado?
             exs.:
             Shonen (Naruto, Dragon Ball), 
@@ -37,7 +38,8 @@ class Entrevista: # criação da classe Entrevista
             Seinen (Monster, Berserk)
             Josei (Usagi Drop). \n''')
             sleep(1)
-            print('')
+            print('~'*70)
+            
             r2 = input (''' Qual a produtora de anime favorita do entrevistado? 
             exs.:
             Ufotable - Franquia Fate, Kimetsu no Yaiba,
@@ -50,16 +52,19 @@ class Entrevista: # criação da classe Entrevista
             Pierrot - Naruto,
             Production I.G - Kuroko no Basket. \n''')
             sleep(1)
-            print('')
+            print('~'*70)
+            
             r3 = input ('Há algum mangá que o entrevistado gostaria que fosse adaptado (ou re-adaptado) para anime? Se sim, qual?\n')
             sleep(1)
-            print('')
+            print('~'*70)
+            
             r4 = input ('De qual forma o entrevistado costuma assistir anime? \n(exs.: canais de TV, sites, plataforma de streaming etc)\n')
             sleep(1)
-            print('')
+            print('~'*70)
+            
             data = dt.now().strftime('%Y-%m-%d %H:%M:%S')
             sleep(1)
-            print('')
+            print('~'*70)
                 
             dados.append(idade)
             dados.append(gen)
