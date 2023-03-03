@@ -54,7 +54,7 @@ class Entrevista: # criação da classe Entrevista
             sleep(1)
             print('~'*70)
             
-            r3 = input ('Há algum mangá que o entrevistado gostaria que fosse adaptado (ou re-adaptado) para anime? Se sim, qual?\n')
+            r3 = input ('Há algum mangá que o entrevistado gostaria que fosse adaptado (ou re-adaptado) para anime?\n')
             sleep(1)
             print('~'*70)
             
