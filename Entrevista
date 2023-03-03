@@ -6,20 +6,8 @@ from time import sleep
 
 
 class Entrevista: # criação da classe Entrevista
-    def __init__(self, idade, faixa, gen, r1, r2, r3, r4, data, dicionario): # construtor para iniciar as variaveis
-        self.idade = idade
-        self.faixa = faixa
-        self.gen = gen
-        self.r1 = r1
-        self.r2 = r2
-        self.r3 = r3
-        self.r4 = r4
-        self.data = data
-        self.dicionario = dicionario
-        pass
-
-    def Entrevistado (self):
-        self.dicionario = {}
+    def __init__(self): # construtor para iniciar as variaveis
+        arquivo = open("saída.csv", "a", newline="", encoding="utf-8")    #abre o arquivo para adicionar os dados
         self.idade = 1
         while (self.idade != 00):
             self.idade = int(input ('Insira a idade do entrevistado (00 para encerrar o programa): '))
@@ -39,10 +27,10 @@ class Entrevista: # criação da classe Entrevista
                 sleep(0.5)
                 system('cls')
                 lista3 = ['A', 'B', 'C', 'D', 'E']
-                lista1 = ['A.Shonen (Naruto, Dragon Ball...)', 'B.Shoujo (Sailor Moon, Colégio Ouran Host Club...)', 'C.Seinen (Monster, Beserk)', 'D.Josei (Usagi Drop)', 'E.Não sei']
-                lista4 = ['A.Ufotable (Franquia Fate, Kimetsu no Yaiba)', 'B.Toei (One Piece, Dragon Ball...)', 'C.Bones (Fumetal Alchimist: Brotherhood, Boku no Hero Academia...)', 'D.Pierrot (Naruto)', 'E.Não sei']
-                lista5 = ['A.opção 1', 'B.opção 2', 'C.opção 3', 'D.opção 4', 'E.Não sei']
-                lista6 = ['A.TV', 'B.Sites', 'C.Streamings', 'D.Não sei']
+                lista1 = ['A) Shonen (Naruto, Dragon Ball...)', 'B) Shoujo (Sailor Moon, Colégio Ouran Host Club...)', 'C) Seinen (Monster, Beserk)', 'D) Josei (Usagi Drop)', 'E) Não sei']
+                lista4 = ['A) Ufotable (Franquia Fate, Kimetsu no Yaiba)', 'B) Toei (One Piece, Dragon Ball...)', 'C) Bones (Fumetal Alchimist: Brotherhood, Boku no Hero Academia...)', 'D) Pierrot (Naruto, Bleach)', 'E) Não sei']
+                lista5 = ['A) Sim', 'B) Não','C) Não sei']
+                lista6 = ['A) TV', 'B) Sites', 'C) Streamings', 'D) Não sei']
                 while (True):
                     print(
                         '''##################################
@@ -92,7 +80,7 @@ class Entrevista: # criação da classe Entrevista
     ##################################'''
     )
                     print('')
-                    print('Pergunta 3:')
+                    print('Há algum mangá que o entrevistado gostaria que fosse adaptado (ou re-adaptado) para anime?')
                     print('')
                     for i in lista5:
                         print(i)
@@ -133,25 +121,18 @@ class Entrevista: # criação da classe Entrevista
                 self.data = dt.now().strftime('%d-%m-%Y %H:%M:%S')
                 system('cls')
 
-                arquivo = open("saída.csv", "a", newline="", encoding="utf-8")
                 w = csv.writer(arquivo)
                 cabecalho = ['idade', 'faixa', 'genero', 'r1', 'r2', 'r3', 'r4', 'data']
                 writer = csv.DictWriter(arquivo, fieldnames = cabecalho)
                 #writer.writeheader()
                 writer.writerow({'idade':self.idade, 'faixa':self.faixa, 'genero':self.gen, 'r1':self.r1, 'r2':self.r2, 'r3':self.r3, 'r4':self.r4, 'data':self.data})
-                arquivo.close()
 
                 lista2 = ['Ficha do entrevistado:','', f'Idade: {self.idade}', f'Faixa etária: {self.faixa}', f'Genêro: {self.gen}', '', f'Resposta 1: {self.r1}', f'Resposta 2: {self.r2}', f'Resposta 3: {self.r3}', f'Resposta 4: {self.r4}', '', f'Data: {self.data}']
-                arquivo2 = open("grupo m2/projeto em grupo/logentrevista.txt", "a", newline="", encoding="utf-8")
-                writer = csv.DictWriter(arquivo2, fieldnames = cabecalho)
-                #writer.writeheader()
-                writer.writerow({'idade':self.idade, 'faixa':self.faixa, 'genero':self.gen, 'r1':self.r1, 'r2':self.r2, 'r3':self.r3, 'r4':self.r4, 'data':self.data})
-                arquivo2.close()
-                
-
+ 
                 for i in lista2:
                     print(i)
                 print('')
                 p = input ('Aperte enter para continuar\n')
                 system('cls')
+        arquivo.close()    #fecha o arquivo
         
