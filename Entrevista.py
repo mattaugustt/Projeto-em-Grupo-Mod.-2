@@ -1,3 +1,10 @@
+### Módulo 2 – Quero os dados na minha mesa. ###
+#integrantes:
+#Angélica Monteiro Correa
+#Matheus Augusto de Souza
+#Rodrigo de Souza Valim
+#Victor Hugo Almeida de Moura
+
 
 import csv # import da biblioteca que irá editar um arquivo csv
 from datetime import datetime as dt # biblioteca que fornece data e hora
