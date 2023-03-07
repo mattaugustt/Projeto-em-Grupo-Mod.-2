@@ -21,6 +21,6 @@ No fim do processo, devemos apresentar o resultado da implementação do código
 
 * Criamos um slide para a apresentação da ideia da pesquisa e um para a apresentação dos resultados. <br> 
 
-* O arquivo de saída utilizado para a manipulação dos dados em formato de gráficos está denominado como 'saída.csv', tal como será a saída do código. <br> 
+* O arquivo de saída utilizado para a apresentação dos dados em formato de gráficos está denominado como 'saída.csv', tal como será a saída do código. <br> 
 
 * Chamamos a classe entrevista através do arquivo main, e essa classe deve ser chamada sem parâmetros de entrada, pois os dados vão ser inseridos através de inputs.
