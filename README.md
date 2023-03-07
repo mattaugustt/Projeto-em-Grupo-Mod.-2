@@ -1,7 +1,7 @@
 
 **CURSO DE ANÁLISE DE DADOS - SENAC/RESILIA** <br>
 **Projeto em grupo - Módulo 2;** <br>
-**Contratado!** <br><br>
+**Quero os dados na minha mesa!** <br><br>
 **Angélica Monteiro.** <br>
 **Matheus Augusto.** <br>
 **Rodrigo Valim.** <br>
