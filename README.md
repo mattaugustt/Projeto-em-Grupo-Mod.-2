@@ -13,7 +13,7 @@ mataugusto1999@gmail.com <br>
 * Desenvolver um código para a implementação de uma pesquisa, onde este irá abrir um arquivo csv para a introdução dos dados inseridos pelos usuários na pesquisa. 
 
 <br>
-- Proposta do projeto: <br>
+**- Proposta do projeto: <br>**
 Utilizando classes, criar um código em que é realizada uma entrevista/pesquisa com um tema específico (no nosso caso 'animes') e armazenar os dados da pesquisa no arquivo csv de saida.<br>
 No fim do processo, devemos apresentar o resultado da implementação do código e, utilizando a introdução de dados de 10 entrevistados hipotéticos (no nosso caso 11), <br>mostrar a representação dos dados inseridos por estes por meio de tabelas, gráficos ou planilhas.
  <br><br>
