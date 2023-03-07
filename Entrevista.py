@@ -6,9 +6,6 @@
 #Victor Hugo Almeida de Moura
 
 
-
-#Tantativa aula
-
 import csv  # import da biblioteca que irá editar um arquivo csv
 from datetime import datetime as dt  # biblioteca que fornece data e hora
 from os import system  # biblioteca para manipular o cmd
@@ -178,5 +175,3 @@ class Entrevista:  # criação da classe Entrevista
         arquivo.close()
 
 
-
-e1 = Entrevista()  #chama a entrevista
