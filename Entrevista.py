@@ -3,7 +3,7 @@
 #Angélica Monteiro Correa
 #Matheus Augusto de Souza
 #Rodrigo de Souza Valim
-#Victor Hugo Almeida de Moura
+#Vitor Hugo Almeida de Moura
 
 
 import csv  # import da biblioteca que irá editar um arquivo csv
