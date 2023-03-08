@@ -45,7 +45,7 @@ class Entrevista:  # criação da classe Entrevista
                 lista = ['A', 'B', 'C', 'D', 'E']
                 
                 lista1 = ['A) Shonen (Naruto, Dragon Ball...)', 'B) Shoujo (Sailor Moon, Colégio Ouran Host Club...)',
-                          'C) Seinen (Monster, Beserk)', 'D) Josei (Usagi Drop)', 'E) Não sei']
+                          'C) Seinen (Monster, Berserk)', 'D) Josei (Usagi Drop)', 'E) Não sei']
                 dic1 = {'A' : 'Shonen', 'B' : 'Shoujo', 'C' : 'Seinen', 'D' : 'Josei', 'E' : 'Não sabe'}
                 
                 lista2 = ['A) Ufotable (Franquia Fate, Kimetsu no Yaiba)', 'B) Toei (One Piece, Dragon Ball...)',
