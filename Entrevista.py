@@ -170,6 +170,8 @@ class Entrevista:  # criação da classe Entrevista
                 for i in lista2:
                     print(i)
                 print('')
+                print('Aguarde! Em breve uma nova produção do jeitinho que você gosta.\n')
+                print('')
                 p = input('Aperte enter para continuar\n')
                 system('cls')
         arquivo.close()
