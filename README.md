@@ -8,7 +8,10 @@
 **Vitor Hugo Almeida.** <br>
 
 e-mail para contato: <br>
+angelicamonteiro19.12@gmail.com <br>
 mataugusto1999@gmail.com <br>
+rodrigovalim1212@gmail.com <br>
+mouravitor313@gmail.com <br>
 
 * Desenvolver um código para a implementação de uma pesquisa, onde este irá abrir um arquivo csv para a introdução dos dados inseridos pelos usuários na pesquisa. 
 
