@@ -11,5 +11,6 @@ print(
 ########################################################'''
 )
 print('')
-pesquisa = Entrevista()
+e1 = Entrevista()
+e1.pesquisa()
 print('Finalizado. Obrigado!')
